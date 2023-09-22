@@ -4,6 +4,7 @@
 以下環境版本為開發中使用的版本，可以在架構環境時作參考。
 > [!NOTE]
 > Environment packages may change as development progresses
+
 > [!NOTE]
 > 環境套件會因為開發的進展而有所改變
 ```
