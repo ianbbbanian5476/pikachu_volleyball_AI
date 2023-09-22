@@ -40,20 +40,20 @@ wheel              0.41.2
 ```
 ### Installation of packages
 1. Python 3.10.5
-1. Install virtualenv
+2. Install virtualenv
 ```
 pip install virtualenv
 ```
-1. build env
+3. build env
 ```
 virtualenv myenv
 ```
-1. Active env
--**Windows** 
+4. Active env
+> **Windows** 
 ```
 .\venv\Scripts\myenv
 ```
--**MacOS** 
+> **MacOS** 
 ```
 $ source ./venv/bin/myenv
 ```
