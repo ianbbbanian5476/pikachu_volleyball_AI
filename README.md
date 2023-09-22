@@ -38,4 +38,12 @@ typing_extensions  4.8.0
 urllib3            2.0.5
 wheel              0.41.2
 ```
-
+### Installation of packages
+1. Python 3.10.5
+2. Install virtualenv
+```pip install virtualenv```
+3. build env
+```virtualenv myenv```
+4. open env
+Windows ```.\venv\Scripts\myenv```
+MacOS ```$ source ./venv/bin/myenv```
