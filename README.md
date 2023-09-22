@@ -8,9 +8,12 @@
 Python             3.10.5
 certifi            2023.7.22
 charset-normalizer 3.2.0
+cloudpickle        2.2.1
 EasyProcess        1.1
 entrypoint2        1.1
 filelock           3.12.4
+gym                0.26.2
+gym-notices        0.0.8
 idna               3.4
 Jinja2             3.1.2
 MarkupSafe         2.1.3
@@ -40,7 +43,7 @@ typing_extensions  4.8.0
 urllib3            2.0.5
 wheel              0.41.2
 ```
-### Installation of packages
+### Installation of Virtualenv
 1. Python 3.10.5
 2. Install virtualenv
 ```
