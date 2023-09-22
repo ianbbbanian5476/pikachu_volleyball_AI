@@ -41,9 +41,19 @@ wheel              0.41.2
 ### Installation of packages
 1. Python 3.10.5
 2. Install virtualenv
-```pip install virtualenv```
+```
+pip install virtualenv
+```
 3. build env
-```virtualenv myenv```
+```
+virtualenv myenv
+```
 4. open env
-Windows ```.\venv\Scripts\myenv```
-MacOS ```$ source ./venv/bin/myenv```
+Windows 
+```
+.\venv\Scripts\myenv
+```
+MacOS 
+```
+$ source ./venv/bin/myenv
+```
