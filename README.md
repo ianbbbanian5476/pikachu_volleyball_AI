@@ -1,6 +1,6 @@
-### PIKACHU VOLLEYBALL AI TRAINING
+# PIKACHU VOLLEYBALL AI TRAINING
 ## 開發環境
-# 套件版本
+### 套件版本
 以下環境版本為開發中使用的版本，可以在架構環境時作參考。
 ```
 Python             3.10.5
