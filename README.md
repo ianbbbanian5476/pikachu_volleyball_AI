@@ -76,3 +76,18 @@ def exp_reward(a,history):
     reward_a=history[a] #history[a]儲存了拉霸a每次獲得獎金的紀錄
     return sum(reward_a)/len(reward_a)
 ```
+### 探索
+> 【利用】 | 利用平均(期望)獎金找出最佳動作
+> [!NOTE]
+> 將每個動作帶入 Q<sub>k</sub>(a),去找出能達得到最大期望獎金的動作,此種作法不會建議未玩過的機台,只使用到利用策略,稱**貪婪法**
+```python
+def get_best_action(actions,history):
+    best_action = 0
+    max_action_value = 0
+    for i in range(len(actions)):
+        cur_action_value = exp_reward(actions[i],history) 
+        if cur_action_value > max_action_value:
+            best_action = i #若cur_action_value比較大，即更新索引best_action的值
+            max_action_value = cur_action_value
+    return best_action 
+```
