@@ -78,8 +78,10 @@ def exp_reward(a,history):
 ```
 ### 探索
 > 【利用】 | 利用平均(期望)獎金找出最佳動作
+
 > [!NOTE]
 > 將每個動作帶入 Q<sub>k</sub>(a),去找出能達得到最大期望獎金的動作,此種作法不會建議未玩過的機台,只使用到利用策略,稱**貪婪法**
+
 ```python
 def get_best_action(actions,history):
     best_action = 0
