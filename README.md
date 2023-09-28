@@ -66,9 +66,10 @@ $ source ./venv/bin/myenv
 - [X] README
 - [ ] complete AI training
 ## Q-learning
-!(https://i.imgur.com/NUebRzl.png)
-> expected reward(期望獎金)
-價值函數公式 **Q<sub>k</sub>(a) = r(a<sub>1</sub>) + r(a<sub>2</sub>) + …… + r(a<sub>n</sub>) / n**
+![](https://i.imgur.com/NUebRzl.png)
+### expected reward(期望獎金)
+價值函數公式 **Q<sub>k</sub>(a) = r(a<sub>1</sub>) + r(a<sub>2</sub>) + …… + r(a<sub>n</sub>) / n** 
+
 寫成程式碼:
 ```python
 def exp_reward(a,history):
