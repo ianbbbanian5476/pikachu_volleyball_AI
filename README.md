@@ -65,3 +65,4 @@ $ source ./venv/bin/myenv
 ## Development Progress
 - [X] README
 - [ ] complete AI training
+
